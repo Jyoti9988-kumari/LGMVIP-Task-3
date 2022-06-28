@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(90, 112, 112);
+    background: radial-gradient(rgb(39, 46, 39));
+    text-align: center;
+}
+
+#headr {
+    margin-top: 4rem;
+    color: rgb(232, 223, 223);
+    font-size: larger;
+}
+
+#headr h1::first-letter {
+    color: aqua;
+    font-size: 50px;
+}
+
+h1:hover {
+    color: rgb(53, 12, 12);
+}
+
+#container {
+    background-color: rgb(111, 125, 125);
+    margin-top: 20px;
+    height: 320px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 9px 9px rgb(8, 223, 247);
+}
+
+#nameDiv {
+    margin-top: 40px;
+}
+
+#name {
+    padding: 6px;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(5, 247, 247);
+    background-color: rgb(224, 244, 244);
+    font-size: medium;
+    box-shadow: 0 3px 4px rgb(160, 226, 249);
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+#name:hover {
+    font-size: 1.3rem;
+    background-color: brown;
+}
+
+::placeholder {
+    color: rgb(1, 1, 14);
+}
+
+#email {
+    padding: 6px;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(5, 247, 247);
+    background-color: rgb(224, 244, 244);
+    font-size: medium;
+    box-shadow: 0 3px 4px rgb(160, 226, 249);
+    margin-top: 20px;
+    margin-left: 2.4rem;
+}
+
+#email:hover {
+    font-size: 1.3rem;
+    background-color: brown;
+}
+
+#branch {
+    padding: 6px;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(5, 247, 247);
+    background-color: rgb(224, 244, 244);
+    font-size: medium;
+    box-shadow: 0 3px 4px rgb(160, 226, 249);
+    margin-top: 20px;
+    margin-left: 1.5rem;
+}
+
+#branch:hover {
+    font-size: 1.3rem;
+    background-color: brown;
+}
+
+#gender {
+    padding: 6px;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px;
+    border-color: rgb(5, 247, 247);
+    background-color: rgb(224, 244, 244);
+    font-size: medium;
+    box-shadow: 0 3px 4px rgb(160, 226, 249);
+    margin-top: 20px;
+    margin-left: 2rem;
+}
+
+#gender:hover {
+    font-size: 1.3rem;
+    background-color: brown;
+}
+
+::placeholder {
+    color: rgb(1, 1, 14);
+}
+
+::placeholder {
+    color: rgb(1, 1, 14);
+}
+
+::placeholder {
+    color: rgb(1, 1, 14);
+}
+
+.input {
+    font-size: 40px;
+    color: rgb(56, 23, 5);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    margin: 15px;
+}
+
+#submit {
+    width: 140px;
+    height: 30px;
+    font-size: 23px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 3px 4px rgb(160, 226, 249);
+    margin-top: 20px;
+    border-radius: 18px;
+    border: 0px;
+}
+
+#submit:hover {
+    color: rgb(255, 246, 243);
+    font-size: 1.8rem;
+    background-color: brown;
+}
+
+table {
+    border-collapse: separate;
+    width: 50;
+    margin: 56px auto;
+    background-color: bisque;
+    box-shadow: 0 30px 333px rgb(61, 131, 193), -1em 0 20.4em rgb(204, 220, 30);
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 9px;
+}
+
+th {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 61, 61);
+    box-shadow: 0 4px rgb(108, 223, 246);
+    padding: 10px;
+    background-color: rgb(157, 153, 161);
+}
+
+td {
+    font-size: 15px;
+    color: brown;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
